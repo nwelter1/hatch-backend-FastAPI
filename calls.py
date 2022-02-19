@@ -18,7 +18,6 @@ class Call:
     def tagList(self, tags):
         return tags.split(',')
         
-    
     def getPostsByTag(self, tag):
         res = requests.get(f'https://api.hatchways.io/assessment/blog/posts?tag={tag}')
         print(res)

@@ -13,7 +13,6 @@ async def ping():
         return {'success': True}
     return {'failure': False}, 500
 
-
 @app.get('/api/posts')
 async def posts(tags: str, sortBy: Optional[str] = None, direction: Optional[str] = None):
     if not tags:
