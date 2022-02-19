@@ -10,7 +10,7 @@ Refactoring this backend take-home assesment walkthrough from [Flask](https://gi
     - `python -m venv <name_of_your_env>`
   - Activate Python virtual env:
     - Mac
-        - `source <name of env>/bin/activate`
+        - `source <name_of_your_env>/bin/activate`
     - Windows
         - `<name_of_your_env>\Scripts\activate.bat`
   - Install dependencies:
