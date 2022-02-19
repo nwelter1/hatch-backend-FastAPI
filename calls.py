@@ -1,5 +1,4 @@
-import requests, json
-from fastapi.encoders import jsonable_encoder
+import requests
 class Call:
     def __init__(self, tags, sort_by, direction):
         self.tags = self.tagList(tags)
