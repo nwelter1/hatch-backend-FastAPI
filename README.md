@@ -13,5 +13,8 @@ Refactoring this backend take-home assesment walkthrough from [Flask](https://gi
         - `source <name of env>/bin/activate`
     - Windows
         - `<name_of_your_env>\Scripts\activate.bat`
-  - `pip install -r requirements.txt`
-  - start the uvicorn dev server with `uvicorn main:app --reload`
+  - Install dependencies:
+    - `pip install -r requirements.txt`
+  - Start uvicorn dev server:
+    - `uvicorn main:app --reload`
+
